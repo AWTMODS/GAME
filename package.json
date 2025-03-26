@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for playing a word guessing game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["telegram", "bot", "game"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.12.1",
+    "telegraf": "^4.16.3"
+  }
+}
